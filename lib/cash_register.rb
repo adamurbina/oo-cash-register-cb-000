@@ -20,7 +20,7 @@ class CashRegister
         @total -= (@discount)* @price
         @price = (1 - @discount) * @price
         if @discount = 0
-            "After the discount, the total comes to $#{disc_price}"
+            "After the discount, the total comes to $#{@price}"
         else
             "There is no discount to apply."
         end
